@@ -1,0 +1,16 @@
+body{
+    background-image: url(cake.jpeg);
+    text-align: center;
+
+}
+div{
+background-color: coral;
+font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+text-align: center;
+border-radius: 70px;
+font-size: 40px;
+}
+
+marquee{
+font-size: 35px;
+}
