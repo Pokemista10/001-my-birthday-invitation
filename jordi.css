@@ -10,7 +10,10 @@ text-align: center;
 border-radius: 70px;
 font-size: 40px;
 }
-
 marquee{
 font-size: 35px;
+}
+a{
+border-radius: 50px;
+background-color:orange;
 }
