@@ -1,0 +1,10 @@
+.carousel{
+    border-radius: 100px;
+    text-align: center;
+}
+body{
+    background-image: url(giftpattern.jpg);
+}
+.gifts{
+    color: white;
+}
