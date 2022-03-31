@@ -1,0 +1,59 @@
+.carousel{
+    border-radius: 100px;
+    text-align: center;
+}
+body{
+    background-image: url(giftpattern.jpg);
+}
+.gifts{
+    color: black;
+    animation: blink 4s forwards;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+        font-size: 10vh;
+    }
+    50%{
+        opacity: 0;
+        font-size: 15vh;
+    }
+   100%{
+opacity: 1;
+font-size: 5vh;
+    }
+}
+.iphone13{
+    text-align: center;
+}
+.airpodsmax{
+    text-align: left;
+}
+.applewatch{
+    text-align: right;
+}
+.joycon{
+    font-size: 20vh;
+}
+.titleschedule{
+    font-size: 10vh;
+    text-align: center;
+}
+p{
+    font-size: 5vh;
+    text-align: center;
+    animation: blink 20s infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+        font-size: 5vh;
+    }
+    50%{
+        opacity: 1;
+        font-size: 10vh;
+    }
+   100%{
+opacity: 1;
+font-size: 5vh;
+    }
