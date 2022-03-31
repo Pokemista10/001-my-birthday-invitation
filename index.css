@@ -1,10 +1,14 @@
-.carousel{
-    border-radius: 100px;
-    text-align: center;
-}
 body{
     background-image: url(giftpattern.jpg);
 }
+
+
+.carousel{
+    border: solid 1vh brown;
+    text-align: center;
+}
+
+
 .gifts{
     color: black;
     animation: blink 4s forwards;
@@ -22,38 +26,101 @@ body{
 opacity: 1;
 font-size: 5vh;
     }
+
+
 }
+
+
 .iphone13{
     text-align: center;
 }
+
+
 .airpodsmax{
     text-align: left;
 }
+
+
 .applewatch{
     text-align: right;
 }
+
+
 .joycon{
     font-size: 20vh;
 }
+
+
 .titleschedule{
     font-size: 10vh;
     text-align: center;
+    border: solid 1vh darkblue;
 }
-p{
-    font-size: 5vh;
+.schedule15{
+    border: solid 1vh green;
     text-align: center;
-    animation: blink 20s infinite;
+    font-size: 3vh;
+     animation: blink 5s forwards;
 }
 @keyframes blink{
     0%{
         opacity: 1;
-        font-size: 5vh;
+        font-size: 2vh;
     }
     50%{
         opacity: 1;
+        font-size: 5vh;
+    }
+   100%{
+opacity: 1;
+font-size: 6vh;
+    }
+
+
+.schedule16{
+    border: 1vh red;
+text-align: center;
+font-size: 3vh;
+}
+
+
+.titleschedule2{
+    border: 1vh lightblue;
+    text-align: center;
+    font-size: 5vh;
+    animation: 10s infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
         font-size: 10vh;
+    }
+    50%{
+        opacity: 0;
+        font-size: 15vh;
     }
    100%{
 opacity: 1;
 font-size: 5vh;
     }
+}
+
+
+.fifa22img{
+    border: 1vh white;
+    text-align: center;
+}
+
+
+.schedule18{
+    border: 1vh lightpink;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+p{
+    font-size: 5vh;
+    text-align: center;
+}
+}
