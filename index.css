@@ -2,6 +2,7 @@ body{
     position: relative;
     z-index: 0;
     background-image: url(giftpattern.jpg);
+    font-family: monospace;
 }
 
 
@@ -13,6 +14,17 @@ body{
 .carousel{
     border: solid 1vh brown;
     text-align: center;
+}
+
+
+marquee{
+    font-size: 20vh;
+}
+
+
+.titlebirth{
+    text-align: center;
+    font-size: 10vh;
 }
 
 
@@ -28,6 +40,10 @@ body{
 
 .call{
     font-size: 5vh;
+}
+
+.tel{
+    
 }
 
 .e-mail-me{
@@ -123,16 +139,16 @@ border: solid 1vh yellow;
 
 .gifts{
     color: black;
-    animation: blink 4s forwards;
+    animation: blink 10s forwards;
 }
 @keyframes blink{
     0%{
         opacity: 1;
-        font-size: 10vh;
+        font-size: 5vh;
     }
     50%{
         opacity: 0;
-        font-size: 15vh;
+        font-size: 10vh;
     }
    100%{
 opacity: 1;
@@ -168,6 +184,7 @@ font-size: 5vh;
     text-align: center;
     border: solid 1vh darkblue;
 }
+
 .schedule15{
     border: solid 1vh green;
     text-align: center;
@@ -187,10 +204,9 @@ font-size: 5vh;
 opacity: 1;
 font-size: 6vh;
     }
+}
 
 
 p{
     font-size: 5vh;
-    text-align: center;
 }
-
